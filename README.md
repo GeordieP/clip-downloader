@@ -1,3 +1,14 @@
+# NOTE: SCRIPT IS BROKEN
+
+Unfortunately, Twitch has updated the clips page in a way that renders this script unusable. The page is now a JavaScript-only app, and no longer works with JS disabled. The Python library that loads in the HTML doesn't execute JS, so the HTML it receives is essentially an empty page, and there's no .mp4 link for it to find.
+
+To manually download clips, please refer to the instructions in [this issue comment](https://github.com/GeordieP/clip-downloader__BROKEN/issues/1#issuecomment-394711899).
+
+Apologies to anyone hoping to use the script! I don't have the time to work on a fix at the moment.
+
+
+___
+
 # Twitch Clip Batch Downloader
 Originally created for a friend, but might as well make it public.
 
